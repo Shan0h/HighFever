@@ -13,7 +13,7 @@
 <br>
 - If you install the Script twice, you need to rebuild the VPS to factory settings, in the VPS provider panel<br>
 - DOMAIN (MUST) / Random<br>
-- (Recommendation) Debian 12 (Testing)
+- (Recommendation) Debian 12 (Testing) <br>
 - CPU MIN 1 CORE<br>
 - RAM 1GB<br>
 <br>
