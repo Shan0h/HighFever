@@ -85,18 +85,3 @@ apt update && apt upgrade -y && reboot
 ```
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/Shan0h/HighFever/master/setup1.sh && chmod +x setup1.sh && sed -i -e 's/\r$//' setup1.sh && screen -S setup ./setup1.sh
 ```
-
-# Telegram
-[![Telegram-chat](https://img.shields.io/badge/Chat-Telegram-blue)](https://t.me/jubairFF/)
-[![Telegram-grup](https://img.shields.io/badge/Grup-Telegram-blue)](https://t.me/+1p9RnexGMP0yOGVl/)
-
-# ATTENTION (MUST READ) CAREFULLY
-- PROHIBITED FOR SALE BECAUSE I GET FREE FROM THE INTERNET
-- DATA SECURITY / YOUR USE HISTORY ON THE INTERNET IS NOT MY RESPONSIBILITY AS A SCRIPT PROVIDER
-- ALL YOUR DATA / USAGE HISTORY ON THE INTERNET ONLY VPS NETWORK PROVIDERS MANAGE IT AND (FBI) maybe
-- USE IT WISELY THEN YOU WILL AVOID PROBLEMS
-- WATCHING ADULT FILM IS YOUR OWN RESPONSIBILITY
-
-# FINAL MESSAGE
-- THANK YOU FOR TAKING THE TIME TO READ AND SORRY IF THERE ARE IMPACT WORDS
-- BECAUSE I AM ALSO A HUMAN WHO DOESN'T ESCAPE FROM MISTAKES
