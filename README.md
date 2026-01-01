@@ -13,14 +13,12 @@
 <br>
 - If you install the Script twice, you need to rebuild the VPS to factory settings, in the VPS provider panel<br>
 - DOMAIN (MUST) / Random<br>
-- DEBIAN 9/10<br>
-- Ubuntu 18/20 LTS<br>
+- (Recommendation) Debian 12 (Testing)
 - CPU MIN 1 CORE<br>
 - RAM 1GB<br>
-- (Recommendation) Ubuntu 18 / 20 LTS (STABLE to use)
 <br>
 
-# Cloudflare settings for those who have their own Domain, you can check at folder [image](https://github.com/jubairbro/AUTO-SCRIPT/tree/master/image) to display other settings
+# Cloudflare settings for those who have their own Domain, you can check at folder [image](https://github.com/Shan0h/HighFever/tree/master/image) to display other settings
 <br>
 - SSL/TLS : FULL<br>
 - SSL/TLS Recommender : OFF<br>
@@ -31,7 +29,7 @@
 <br>
 
 # Pointing
-![Pointing](https://github.com/jubairbro/AUTO-SCRIPT/blob/master/image/pointing.png)
+![Pointing](https://github.com/Shan0h/HighFever/blob/master/image/pointing.png)
 
 ## Service & Port:
 <br>
@@ -68,15 +66,15 @@
 - no auto backup? which... is permanently removed
 - Just accept the existing features / you can add them yourself manually
 - Additional Features (Optional) skipper (NOTE) install after [Step Install] is complete
-- Optional [install OpenVPN + Slowdns +](https://github.com/jubairbro/AUTO-SCRIPT/tree/master/udp-custom) UDP-Custom by [Exe302](https://gitlab.com/Exe302) + Slowdns by [SL](https://github.com/fisabiliyusri)
-- Optional [install Panel Webmin + ADS Block](https://github.com/jubairbro/AUTO-SCRIPT/tree/master/helium) Helium version 3.0 by [Abi Darwish](https://github.com/abidarwish)
-- Optional [install Bot Telegram Xolpanel](https://github.com/jubairbro/AUTO-SCRIPT/tree/master/bot%20telegram%20panel) by [XolvaID](https://github.com/XolvaID)
+- Optional [install OpenVPN + Slowdns +](https://github.com/Shan0h/HighFever/tree/master/udp-custom) UDP-Custom by [Exe302](https://gitlab.com/Exe302) + Slowdns by [SL](https://github.com/fisabiliyusri)
+- Optional [install Panel Webmin + ADS Block](https://github.com/Shan0h/HighFever/tree/master/helium) Helium version 3.0 by [Abi Darwish](https://github.com/abidarwish)
+- Optional [install Bot Telegram Xolpanel](https://github.com/Shan0h/HighFever/tree/master/bot%20telegram%20panel) by [XolvaID](https://github.com/XolvaID)
   
 # Menu
-![Service Status](https://github.com/jubairbro/AUTO-SCRIPT/blob/master/image/menu1.png)
+![Service Status](https://github.com/Shan0h/HighFever/blob/master/image/menu1.png)
 
 # Service Status
-![Service Status](https://github.com/jubairbro/AUTO-SCRIPT/blob/master/image/service1.png)
+![Service Status](https://github.com/Shan0h/HighFever/blob/master/image/service1.png)
 
 # [Step Install]
 - Step 1 for (debian) please update first
@@ -85,7 +83,7 @@ apt update && apt upgrade -y && reboot
 ```
 - Step 2 for (ubuntu) directly install
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/jubairbro/AUTO-SCRIPT/master/setup1.sh && chmod +x setup1.sh && sed -i -e 's/\r$//' setup1.sh && screen -S setup ./setup1.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/Shan0h/HighFever/master/setup1.sh && chmod +x setup1.sh && sed -i -e 's/\r$//' setup1.sh && screen -S setup ./setup1.sh
 ```
 
 # Telegram
