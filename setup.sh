@@ -82,7 +82,12 @@ sysctl -w net.ipv6.conf.default.disable_ipv6=1
 
 # Log setup
 mkdir -p /var/lib/
-echo "IP=" >> /var/lib/ipvps.conf
+
+MYIP=$(curl -sS icanhazip.com)
+if [ -z "$MYIP" ]; then
+    MYIP=$(curl -sS ifconfig.me)
+fi
+echo "IP=$MYIP" >> /var/lib/ipvps.conf
 
 # Installation summary
 echo "===================================="
