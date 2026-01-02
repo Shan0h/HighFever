@@ -109,7 +109,7 @@ echo " - Vless gRPC: 443"
 echo " - Trojan gRPC: 443"
 echo " - Shadowsocks gRPC: 443"
 echo "=================================================================="
-echo "Contact: https://t.me/JubairFF"
+echo "Contact: https://t.me/Shan0h"
 echo "=================================================================="
 
 # Additional commands
