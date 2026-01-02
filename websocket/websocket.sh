@@ -1,8 +1,8 @@
 #!/bin/bash
 # =========================================
 # Quick Setup | Script Setup Manager
-# Edition : Stable Edition 1.0
-# Auther  : Jubair bro 
+# Edition: Beta Edition 0.1
+# Author : Shan0h
 # (C) Copyright 2025
 # =========================================
 clear
@@ -13,7 +13,7 @@ sleep 2
 cd
 
 # // GIT USER
-GitUser="jubairbro"
+GitUser="Shan0h"
 
 # // SYSTEM WEBSOCKET HTTPS 443
 cat <<EOF> /etc/systemd/system/ws-https.service
@@ -75,13 +75,13 @@ WantedBy=multi-user.target
 EOF
 
 # // PYTHON WEBSOCKET TLS && NONE
-wget -q -O /usr/local/bin/ws-https https://raw.githubusercontent.com/${GitUser}/AUTO-SCRIPT/master/websocket/ws-https; chmod +x /usr/local/bin/ws-https
+wget -q -O /usr/local/bin/ws-https https://raw.githubusercontent.com/${GitUser}/HighFever/master/websocket/ws-https; chmod +x /usr/local/bin/ws-https
 
 # // PYTHON WEBSOCKET DROPBEAR
-wget -q -O /usr/local/bin/ws-http https://raw.githubusercontent.com/${GitUser}/AUTO-SCRIPT/master/websocket/ws-http; chmod +x /usr/local/bin/ws-http
+wget -q -O /usr/local/bin/ws-http https://raw.githubusercontent.com/${GitUser}/HighFever/master/websocket/ws-http; chmod +x /usr/local/bin/ws-http
 
 # // PYTHON WEBSOCKET OVPN
-wget -q -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/${GitUser}/AUTO-SCRIPT/master/websocket/ws-ovpn; chmod +x /usr/local/bin/ws-ovpn
+wget -q -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/${GitUser}/HighFever/master/websocket/ws-ovpn; chmod +x /usr/local/bin/ws-ovpn
 
 # // RESTART && ENABLE SSHVPN WEBSOCKET TLS 
 systemctl daemon-reload
