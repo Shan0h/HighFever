@@ -86,11 +86,7 @@ echo "IP=" >> /var/lib/ipvps.conf
 
 # Installation summary
 echo "===================================="
-echo " _   _ _______     ______  _   _ "
-echo "| \ | |_   _\ \   / /  _ \| \ | |"
-echo "|  \| | | |  \ \ / /| |_) |  \| |"
-echo "| |\  | | |   \ V / |  __/| |\  |"
-echo "|_| \_| |_|    \_/  |_|   |_| \_|"
+echo "      HIGHFEVER AIO                 "
 echo "===================================="        
 echo "Services and Ports:"
 echo " - OpenSSH: 22"
